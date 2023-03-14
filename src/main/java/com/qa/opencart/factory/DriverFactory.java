@@ -39,6 +39,7 @@ public class DriverFactory {
 		System.out.println("browser name is :" + browserName);
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
+			
 			//driver = new ChromeDriver(optionsManager.getChromeOptions());
 			tlDriver.set(new ChromeDriver(optionsManager.getChromeOptions()));
 		}
